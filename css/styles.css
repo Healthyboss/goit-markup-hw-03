@@ -1,0 +1,146 @@
+:root {
+  --brand-color: #2e2f42;
+  --normal-color: #4d5ae5;
+  --active-color: #404bbf;
+  --background-color: #ffff;
+  --background-color-second: #f4f4fd;
+  --text-color: #434455;
+  --button-color: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--normal-color);
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+.logo-header {
+  color: var(--brand-color);
+}
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--active-color);
+}
+
+.contact {
+  font-style: normal;
+}
+.contact:hover,
+.contact:focus,
+.contact:active {
+  color: var(--active-color);
+}
+.contact-info {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.header-main {
+  background-color: var(--brand-color);
+}
+.header-one {
+  color: var(--background-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.button-order {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+  background-color: var(--normal-color);
+  cursor: pointer;
+}
+
+.button-order:hover,
+.button-order:focus {
+  color: var(--background-color);
+  background-color: var(--active-color);
+}
+
+.header-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.our-team {
+  background-color: var(--background-color-second);
+}
+
+.header-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--brand-color);
+}
+.people {
+  background-color: var(--background-color);
+}
+.logo-footer {
+  color: var(--background-color-second);
+}
+.footer {
+  background-color: var(--brand-color);
+}
+.text-footer {
+  color: var(--background-color-second);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.button-portfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--normal-color);
+  background-color: var(--background-color-second);
+  cursor: pointer;
+}
+.button-portfolio:hover,
+.button-portfolio:focus,
+.button-portfolio:active {
+  background-color: var(--active-color);
+  color: var(--background-color);
+}
