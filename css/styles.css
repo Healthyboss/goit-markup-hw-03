@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --brand-color: #2e2f42;
   --normal-color: #4d5ae5;
@@ -143,4 +153,51 @@ body {
 .button-portfolio:active {
   background-color: var(--active-color);
   color: var(--background-color);
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.nav-layout {
+  display: flex;
+}
+
+.logo-layout {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 44px;
+  height: 21px;
+  margin: 25.5px, 1240px, 25.5px, 156px;
+}
+
+.list-layout {
+  display: flex;
+  justify-content: center;
+  width: 261px;
+  height: 24px;
+  margin: 24px, 832px, 24px, 347px;
+}
+
+.contact-layout {
+  display: flex;
+  justify-content: flex-end;
+}
+.mail-layout {
+  width: 153px;
+  height: 24px;
+  margin: 24px, 347px, 24px, 940px;
+}
+.tel-layout {
+  width: 151px;
+  height: 24px;
+  margin: 24px, 156px, 24px, 1133px;
 }
