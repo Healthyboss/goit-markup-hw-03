@@ -7,6 +7,22 @@
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
 
 :root {
   --brand-color: #2e2f42;
@@ -42,6 +58,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+  padding: 24px, 0;
 }
 .logo-header {
   color: var(--brand-color);
@@ -79,6 +96,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
 }
 .button-order {
   font-family: "Roboto", sans-serif;
@@ -123,6 +141,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--brand-color);
+  margin-bottom: 72px;
 }
 .people {
   background-color: var(--background-color);
@@ -147,6 +166,7 @@ body {
   color: var(--normal-color);
   background-color: var(--background-color-second);
   cursor: pointer;
+  padding: 16px, 32px, 16px, 32px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus,
@@ -155,49 +175,63 @@ body {
   color: var(--background-color);
 }
 
-.page-header {
-  border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
-}
-
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
+.header-layout {
+  display: flex;
+  border-bottom: 1px;
+  border-bottom-color: #e7e9fc, solid;
+}
+
 .nav-layout {
   display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
-
 .logo-layout {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 44px;
-  height: 21px;
-  margin: 25.5px, 1240px, 25.5px, 156px;
+  margin-right: 76px;
+  padding: 24px, 0;
 }
-
 .list-layout {
   display: flex;
-  justify-content: center;
-  width: 261px;
-  height: 24px;
-  margin: 24px, 832px, 24px, 347px;
+  gap: 40px;
+  padding: 24px, 0;
 }
-
 .contact-layout {
   display: flex;
-  justify-content: flex-end;
+  gap: 40px;
+  padding: 24px, 0;
 }
-.mail-layout {
-  width: 153px;
-  height: 24px;
-  margin: 24px, 347px, 24px, 940px;
+
+.menu-layout {
+  display: flex;
+  gap: 332px;
+  align-items: center;
 }
-.tel-layout {
-  width: 151px;
-  height: 24px;
-  margin: 24px, 156px, 24px, 1133px;
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.header-main-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-layout {
+}
+
+.section-one-layout {
+  display: flex;
+  gap: 24px;
+}
+
+.section-two-layout {
+  display: flex;
+  gap: 24px;
 }
