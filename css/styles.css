@@ -66,6 +66,8 @@ body {
 }
 .link {
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .link:hover,
@@ -98,6 +100,10 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  max-width: 496px;
+}
+.header-hidden {
+  overflow: hidden;
 }
 .button-order {
   font-family: "Roboto", sans-serif;
@@ -109,6 +115,7 @@ body {
   background-color: var(--normal-color);
   cursor: pointer;
   padding: 16px 32px;
+  min-width: 169px;
 }
 
 .button-order:hover,
@@ -123,6 +130,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .text {
@@ -130,6 +139,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  text-align: center;
 }
 .our-team {
   background-color: var(--background-color-second);
@@ -145,16 +155,22 @@ body {
   color: var(--brand-color);
   margin-bottom: 72px;
 }
+.services {
+  flex-basis: calc((100% - 48px) / 3);
+}
 .people {
   background-color: var(--background-color);
   display: flex;
   flex-direction: column;
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .logo-footer {
   color: var(--background-color-second);
 }
 .footer {
   background-color: var(--brand-color);
+  padding: 100px 0;
 }
 .text-footer {
   color: var(--background-color-second);
@@ -173,16 +189,18 @@ body {
   background-color: var(--background-color-second);
   cursor: pointer;
   padding: 12px 24px;
+  border: 1px solid var(--button-color);
 }
 .button-portfolio:hover,
 .button-portfolio:focus,
 .button-portfolio:active {
   background-color: var(--active-color);
   color: var(--background-color);
+  border: 1px solid transparent;
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -193,6 +211,7 @@ body {
 
 .nav-layout {
   display: flex;
+  align-items: center;
 }
 .logo-layout {
   margin-right: 76px;
@@ -217,7 +236,7 @@ body {
 }
 
 .section {
-  padding-top: 120px;
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -225,11 +244,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .section-one-layout {
   display: flex;
   gap: 24px;
+}
+
+.values {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-two-layout {
@@ -252,20 +277,22 @@ body {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .applications {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 .item {
   flex-basis: calc((100% - 48px) / 3);
-  border: 1px solid var(--button-color);
 }
 
 .description_2 {
   display: flex;
   flex-direction: column;
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
+  border: 1px solid var(--button-color);
+  border-top: none;
 }
