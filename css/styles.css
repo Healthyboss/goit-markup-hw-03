@@ -125,9 +125,6 @@ body {
   background-color: var(--active-color);
 }
 
-.section-one {
-  padding: 120px 0;
-}
 .header-three {
   font-weight: 500;
   font-size: 20px;
@@ -241,7 +238,10 @@ body {
 }
 
 .section {
-  padding-top: 96px;
+  padding: 120px 0;
+}
+
+.section-two {
   padding-bottom: 120px;
 }
 
@@ -249,8 +249,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .section-one-layout {
@@ -300,4 +298,16 @@ body {
   padding: 32px 16px;
   border: 1px solid var(--button-color);
   border-top: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
