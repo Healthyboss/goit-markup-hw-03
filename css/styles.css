@@ -67,7 +67,6 @@ body {
 .link {
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .link:hover,
@@ -132,7 +131,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--brand-color);
   margin-bottom: 8px;
-  text-align: center;
+  text-align: left;
 }
 
 .text {
@@ -140,7 +139,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  text-align: center;
+  text-align: left;
 }
 .our-team {
   background-color: var(--background-color-second);
@@ -179,7 +178,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  padding: 17.5px 0px;
 }
 .button-portfolio {
   font-family: "Roboto", sans-serif;
@@ -213,7 +211,7 @@ body {
 
 .nav-layout {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .logo-layout {
   margin-right: 76px;
@@ -295,6 +293,7 @@ body {
 .description_2 {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   padding: 32px 16px;
   border: 1px solid var(--button-color);
   border-top: none;
