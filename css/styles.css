@@ -68,6 +68,11 @@ body {
   text-decoration: none;
   display: inline-block;
 }
+.link-footer {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 .link:hover,
 .link:focus {
